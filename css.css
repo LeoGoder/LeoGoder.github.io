@@ -1,0 +1,63 @@
+.button {
+    max-height: 100%;
+    max-width: 100%;
+    
+    color: white;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+.button:hover{
+    color: black;
+}
+
+.About_me, .My_Project, .Certification_and_badges{
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border: 2px solid;
+    border-radius: 90px;
+    border-color: rgb(255, 95, 31);
+    background-color: rgb(255, 95, 31);
+}
+
+.About_me:hover, .My_Project:hover, .Certification_and_badges:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+.Download, .Language{
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid;
+    border-radius: 90px;
+    border-color: rgb(255, 95, 31);
+    background-color: rgb(255, 95, 31);
+
+}
+
+.Download:hover, .Language:hover{
+    background-color: white;
+}
+
+.Download{
+    min-width: 15%;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+
+.Language{
+    min-width: 15%;
+    margin-top: 1%;
+    margin-left: 7%;
+}
