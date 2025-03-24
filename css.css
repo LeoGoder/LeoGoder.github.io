@@ -13,7 +13,7 @@ body {
 }
 
 .triangle-container {
-    position: absolute;
+    position: fixed; /* Change to fixed to adapt to scroll */
     top: 0;
     left: 0;
     width: 100%;
@@ -55,7 +55,7 @@ body {
     margin-bottom: 20px; /* Gap at the bottom of the page */
 }
 
-.profile, .education, .experience {
+.profile, .education, .experience, .projects, .cyber {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -125,22 +125,54 @@ body {
     background-color: #555;
 }
 
-.education h2, .experience h2 {
+.education h2, .experience h2, .projects h2, .cyber h2 {
     margin-top: 0;
 }
 
-.education ul, .experience ul {
+.education ul, .experience ul, .projects ul, .cyber ul {
     list-style-type: none;
     padding: 0;
     width: 100%;
 }
 
-.education li, .experience li {
+.education li, .experience li, .projects li, .cyber li {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid white;
 }
 
-.education li:last-child, .experience li:last-child {
+.education li:last-child, .experience li:last-child, .projects li:last-child, .cyber li:last-child {
     border-bottom: none;
+}
+
+.root-me-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile .pp {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .profile-text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-links {
+        align-items: center;
+    }
+
+    .social-links a {
+        max-width: 100%;
+    }
 }
