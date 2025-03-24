@@ -67,6 +67,7 @@ body {
     width: 100%;
     max-width: 1000px; /* Adjusted width */
     min-height: 200px; /* Adjust as needed */
+    box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 .profile {
@@ -174,5 +175,10 @@ body {
 
     .social-links a {
         max-width: 100%;
+    }
+
+    .profile, .education, .experience, .projects, .cyber {
+        padding: 10px;
+        width: 90%; /* Adjust width to fit within the viewport */
     }
 }
