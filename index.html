@@ -1,112 +1,46 @@
-<!doctype html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="src/output.css" rel="stylesheet"> 
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js" defer></script>
 </head>
-    <body class="text-white bg-gray-700">
-        <!-- Left part--> 
-        <div class="float-left w-[15%] bg-gray-800 mr-60 rounded-r-3xl h-lvh md:fixed">
-            <div class="">
-                <img src="pp.jpg" alt="Profile Picture" class=" rounded-full h-4/12 mt-[5%] ml-[20%]"  width="60%" height="60%">
-                <p class=" pr-4 mt-[5%] ml-[5%]">Passionné d'informatique et de nouvelles technologies depuis mon enfance, je souhaite améliorer le monde qui m'entoure avec mes compétences et connaissances acquises tout au long de ma scolarité et de mon expérience personnelle</p>
-            </div>
-            <div class="inline-flex mt-[5%] ml-[30%]"> 
-                <a href="https://github.com/LeoGoder"><img src="icons8-github.svg" alt="github icon" class=""></a>
-            </div>
-            <div class="mt-[5%] ml-[10%] inline-flex">
-                <a href="https://www.linkedin.com/in/leogoderneaux"><img src="icons8-linkedin.svg" alt="linkedin icon" class=""></a>
-            </div>
-
-            <div>
-                <p class="ml-[5%] mt-[5%]">Codewars badge de Profile</p>
-                <img src="https://www.codewars.com/users/LeoGoder/badges/large" alt="">
-            </div>
-
-        </div>
-
-         <!-- right part--> 
-        <div class="inline-flex ml-[30%]">
-            <div class="float-left w-2/6 p-5 mb-10 bg-gray-800 border-2 border-white divide-y rounded-2xl">
-                <h1 class="text-2xl font-bold">Experience professionnelle</h1>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold">Isojet</h4>
-                    <p class="italic">Mars 2024 – Juillet 2024</p>
-                    <p>Administrateur Système</p>
-                    <p class="mt-6">Administration du parc informatique et amélioration du réseau de l’entreprise en incluant des notions de sécurités ainsi que de la résolution de problème de performance</p>
-                </div>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold">FFSS</h4>
-                    <p class="italic">Janvier 2023 – Juin 2023</p>
-                    <p>Développeur d'application</p>
-                    <p class="mt-6">Projet réaliser avec un professionnel dans le cadre de mes études, création d’une application  en partenariat avec la FFSS pour les aider dans leurs missions de secourisme  </p>
-                </div>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold">  Safe Women Walk Lyon​</h4>
-                    <p class="italic">Mai 2022 – Juin 2022​</p>
-                    <p>Développeur d'application</p>
-                    <p class="mt-6">Création d'une application pour permettre aux femmes de se contacter entre elles pour former des groupes et rentré chez elles en toute sécurités</p>
-                </div>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold">  Solution Atelier Formation</h4>
-                    <p class="italic">Novembre 2020 - Février 2021</p>
-                    <p>Développeur et technicien réseau</p>
-                    <p class="mt-6">Développement d'un site internet et mise en service d'une baie serveur pour l'entreprise </p>
-                </div>
-            </div>
-
-            <div class="w-2/6 p-5 bg-gray-800 border-2 border-white divide-y ml-[10%] rounded-2xl float-right h-auto">
-                <H1 class="text-2xl font-bold">Enseignement</H1>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold">CSBSchool  - Responsable cybersécurité</h4>
-                    <p class="italic">Septembre 2024 – Decembre 2024</p>
-                </div>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold">CSBSchool  - Bachelor Spécialiste CyberSécurité</h4>
-                    <p class="italic">Septembre 2023 – Juillet 2024</p>
-                </div>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold"> Lycée Edouard Branly - BTS Système numérique informatique et réseau </h4>
-                    <p class="italic">Septembre 2021 - Juillet 2023</p>
-                </div>
-    
-                <div class="mb-6">
-                    <h4 class="mt-6 text-xl font-bold">  SEPR - Baccalauréat professionnel Système numérique</h4>
-                    <p class="italic">Septembre 2018 - Juillet 2021</p>
+<body>
+    <div class="triangle-container"></div>
+    <div class="grid">
+        <div class="profile">
+            <img class="pp" src="pp.png" alt="photo">
+            <div class="profile-text">
+                <p>Léo Goderneaux <br>Passionné d'informatique et de nouvelles technologies depuis mon enfance, je souhaite améliorer le monde qui m'entoure avec mes compétences et continuer mes études pour acquérir un master en Cybersécurité</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                        <img src="icons8-linkedin.svg" alt="LinkedIn Logo"> LinkedIn
+                    </a>
+                    <a href="https://github.com/yourprofile" target="_blank">
+                        <img src="icons8-github.svg" alt="GitHub Logo"> GitHub
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="ml-[30%]">
-            <div class="float-left mt-[5%] w-[80%] p-5 mb-10 bg-gray-800 border-2 border-white divide-y rounded-2xl">
-                <h1 class="text-2xl font-bold">Projets</h1>
-
-                <div class="mb-6">
-                    <H1 class="mt-5 text-xl font-bold">Pokemon Battle</H1>
-                    <p>Le jeu de combat pokemon directement sur le terminal ! </p>
-                    <br>
-                    <p class="w-3/6 text-black bg-gray-200 rounded-md"> Python</p>
-                    <img src="PokemonBattleImage.png" alt="PokemonBattleImage">
-                    <div class="inline-flex w-[80%] mt-[3%]">
-                        <a href="https://github.com/LeoGoder/PokemonBattle" class="flex items-center bg-gray-200 rounded-2xl">
-                            <img src="icons8-github black.svg" alt="github icon" width="40%" height="40%" class="mr-2"> 
-                            <span class="text-black">Source</span>
-                        </a>
-                    </div>
-                    
-
-                </div>
-            </div>
+        <div class="education">
+            <h2>Parcours Scolaire</h2>
+            <ul>
+                <li><strong>CSB.School</strong><br>Bachelor Spécialiste CyberSécurité - 2023-2024</li>
+                <li><strong>Lycée Edouard Branly</strong><br>BTS Système numérique informatique et réseau - 2021-2023</li>
+                <li><strong>SEPR</strong><br>Baccalauréat professionnel Système numérique - 2018-2021</li>
+            </ul>
         </div>
-
-
-        
-    </body>
+        <div class="experience">
+            <h2>Expériences en Entreprise</h2>
+            <ul>
+                <li><strong>Isojet</strong><br>ADMINISTRATEUR SYSTEME ET SÉCURITÉ <br>Administration du parc informatique et amélioration du réseau de l’entreprise en incluant des notions de sécurités ainsi que de la résolution de problème de performance<br> Mars 2024 - juillet 2024</li>
+                <li><strong>FFSS</strong><br>Développeur d'application <br>Projet réaliser avec un professionnel dans le cadre de mes études, création d’une application  en partenariat avec la FFSS pour les aider dans leurs missions de secourisme<br> Janvier 2023 - Juin 2023</li>
+                <li><strong>Safe Women Walk Lyon</strong><br>Développeur d'application <br>Création d'une application pour permettre aux femmes de se contacter entre elles pour former des groupes et rentré chez elles en toute sécurités<br> Mai 2022 – Juin 2022</li>
+                <li><strong>Solution Atelier Formation</strong><br>Développeur et technicien réseau <br>Développement d'un site internet et mise en service d'une baie serveur pour l'entreprise<br> Novembre 2020 - Février 2021</li>
+                <li><strong>CPAM du RHONE</strong><br>technicien informatique et réseau <br>Maintenance du parc informatique de l'entreprise et résolution des problèmes rencontrés par les employés<br> Mai 2019 - Juillet 2019</li>
+            </ul>
+        </div>
+    </div>
+</body>
 </html>
