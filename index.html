@@ -1,77 +1,38 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css.css">
-    <script src="script.js" defer></script>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>portfolio</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <div class="triangle-container"></div>
-    <div class="grid">
-        <div class="profile">
-            <img class="pp" src="pp.png" alt="photo">
-            <div class="profile-text">
-                <h1>Léo Goderneaux</h1>
-                <p> <br>Passionné d'informatique et de nouvelles technologies depuis mon enfance, je souhaite améliorer le monde qui m'entoure avec mes compétences et continuer mes études pour acquérir un master en Cybersécurité</p>
-                <div class="social-links">
-                    <a class="linkedin_logo" href="https://www.linkedin.com/in/leogoderneaux" target="_blank">
-                        <img src="icons8-linkedin.svg" alt="LinkedIn Logo"> LinkedIn
-                    </a>
-                    <a class="github_logo" href="https://github.com/LeoGoder" target="_blank">
-                        <img src="icons8-github.svg" alt="GitHub Logo"> GitHub
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="education">
-            <h2>Parcours Scolaire</h2>
-            <ul>
-                <li><strong>CSB.School</strong><br>Bachelor Spécialiste CyberSécurité - 2023-2024</li>
-                <li><strong>Lycée Edouard Branly</strong><br>BTS Système numérique informatique et réseau - 2021-2023</li>
-                <li><strong>SEPR</strong><br>Baccalauréat professionnel Système numérique - 2018-2021</li>
-            </ul>
-        </div>
-        <div class="experience">
-            <h2>Expériences en Entreprise</h2>
-            <ul>
-                <li><strong>Isojet</strong><br>ADMINISTRATEUR SYSTEME ET SÉCURITÉ <br><br>Administration du parc informatique et amélioration du réseau de l’entreprise en incluant des notions de sécurités ainsi que de la résolution de problème de performance<br><br> Mars 2024 - juillet 2024</li>
-                <li><strong>FFSS</strong><br>Développeur d'application <br> <br>Projet réaliser avec un professionnel dans le cadre de mes études, création d’une application  en partenariat avec la FFSS pour les aider dans leurs missions de secourisme<br> <br>Janvier 2023 - Juin 2023</li>
-                <li><strong>Safe Women Walk Lyon</strong><br>Développeur d'application <br> <br>Création d'une application pour permettre aux femmes de se contacter entre elles pour former des groupes et rentré chez elles en toute sécurités<br> <br> Mai 2022 – Juin 2022</li>
-                <li><strong>Solution Atelier Formation</strong><br>Développeur et technicien réseau <br> <br>Développement d'un site internet et mise en service d'une baie serveur pour l'entreprise<br> <br> Novembre 2020 - Février 2021</li>
-                <li><strong>CPAM du RHONE</strong><br>technicien informatique et réseau <br><br>Maintenance du parc informatique de l'entreprise et résolution des problèmes rencontrés par les employés<br> <br> Mai 2019 - Juillet 2019</li>
-            </ul>
-        </div>
-        <div class="cyber">
-            <h2>Projets de Cybersécurité</h2>
-            <ul>
-                <li><strong>TryHackMe</strong><br>badge qui montre ce que j'ai pu réaliser sur le site de TryHackMe <br><img src="https://tryhackme-badges.s3.amazonaws.com/LeoGoderneaux.png" alt="Your Image Badge" /></li>
-                <li><strong>Root Me</strong><br>Voici un aperçu de mon profil Root Me : <a href="https://www.root-me.org/ElFamosoLeoo?lang=fr#bc55179e8f61437d45c426baabeb313a" target="_blank" class="root-me-link">ElFamosoLeoo</a><br><img src="root-me.png" alt="Badge Root-me" style="width: 100%;"></li>
-            </ul>
-        </div>
-        <div class="competition">
-            <h2>Compétitions</h2>
-            <div class="competitor">
-                <h3>Compétiteur</h3>
-                <ul>
-                    <li>
-                        <img src="LogoWSFR_Tricolore.svg" alt="WorldSkills France Logo" class="competition-logo">
-                        <strong>WorldSkills</strong><br>
-                        5ème place à la compétition régionale WorldSkills dans la catégorie Cybersécurité
-                    </li>
-                </ul>
-            </div>
-            <div class="jury">
-                <h3>Juré</h3>
-                <ul>
-                    <li>
-                        <img src="LogoWSFR_Tricolore.svg" alt="WorldSkills France Logo" class="competition-logo">
-                        <strong>WorldSkills</strong><br>
-                        Membre du jury dans la catégorie : Solution Logicielle en Entreprise
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
